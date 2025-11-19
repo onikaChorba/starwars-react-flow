@@ -1,29 +1,10 @@
-# StarWars Graph Explorer
+## StarWars Graph Explorer
 
+A React application that displays Star Wars characters using the **sw-api.starnavi.io** API and visualizes detailed connections with **React Flow**.
 
-This project is a sample React + TypeScript application visualizing Star Wars characters as a graph using React Flow.
+Users can browse heroes with pagination or infinite scroll and view an interactive graph showing:
+- the selected character,
+- the movies they appear in,
+- the starships they used.
 
-
-## Install
-
-
-```
-npm ci
-```
-
-
-## Run
-
-
-```
-npm run dev
-```
-
-
-Open http://localhost:5173
-
-
-## Tests
-
-
-Tests use MSW to mock the API and therefore do not perform real network requests.
+**Tech Stack:** React, React Flow, TypeScript/JavaScript, REST API, Jest.
